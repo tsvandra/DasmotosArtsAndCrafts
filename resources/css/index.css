@@ -3,6 +3,19 @@ span {
     font-weight: bold;
 }
 
-#headr {
-    background-image: url("/resources/images/pattern.jpeg");
+
+.image {
+    background-image: url('/resources/images/pattern.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.caption {
+    display: block;
+    font-family: 'Playfair Display', serif;
+  font-style: italic;
+  position: relative;
+  background-color: white;
+  color: black;
 }
