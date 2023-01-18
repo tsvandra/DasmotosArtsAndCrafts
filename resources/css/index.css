@@ -3,19 +3,39 @@ span {
     font-weight: bold;
 }
 
-
 .image {
-    background-image: url('/resources/images/pattern.jpeg');
-    background-size: cover;
-    background-position: center;
-    height: 300px;
+    background-image: url(../images/pattern.jpeg);
+
 }
 
-.caption {
-    display: block;
-    font-family: 'Playfair Display', serif;
-  font-style: italic;
-  position: relative;
-  background-color: white;
-  color: black;
+h1 {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+#brushes {
+    background-color: mediumspringgreen;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+#frames {
+    background-color: lightcoral;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+#paint {
+    background-color: skyblue;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
 }
